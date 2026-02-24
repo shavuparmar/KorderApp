@@ -56,7 +56,7 @@ export default function About() {
                 styles.btn,
                 pressed && { opacity: 0.85 },
               ]}
-              onPress={() => openLink("https://github.com/")}
+              onPress={() => openLink("https://github.com/shavuparmar")}
             >
               <Text style={styles.btnText}>GitHub</Text>
             </Pressable>

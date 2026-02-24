@@ -1,5 +1,28 @@
 {
-  "name": "portfolio",
-  "slug": "portfolio"
-  
+  "expo": {
+    "name": "Korder",
+    "slug": "korder",
+    "version": "1.0.1",
+    "icon": "./assets/korder.png",
+    "android": {
+      "package": "com.yourname.korder",
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/korder.png",
+        "backgroundColor": "#7fd0e3"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b36a3ece-177c-4406-b4ab-2b08e92c5726"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/b36a3ece-177c-4406-b4ab-2b08e92c5726"
+    },
+    "ios": {}
+  }
 }
